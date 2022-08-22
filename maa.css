@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background: #f3f2fa;
+}
+.container{
+    max-width: 95%px;
+}
+.nav-item{
+    transition:0.5ms;
+}
+.nav-item:hover{
+    background-color: #dbdbdb;
+    transform: translateY(-5px);
+}
+.maaimage{
+    margin-top: 120px;
+}
+.maalogoimg{
+    margin-top: 120px;
+
+}
+.imagesec{
+    margin-top: 60px;
+}
+#redheading{
+    color: rgb(107, 0, 0);
+    font-size: 50px !important;
+}
+.productshead{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.proheadsec{
+    width: 100%;
+    height: 60px; 
+}
+.proheadsec h4{
+    text-align: center;
+    background: url(img/pinkline.png) no-repeat bottom center;
+    padding-bottom: 30px;
+}
+#productscontainer{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+    row-gap: 15px;
+    width: 100%;
+    height: auto;
+
+}
+.cover{
+    width: 99%;
+    height: auto;
+    background: rgb(255,206,236);
+
+}
+
+.cover:hover{
+    background-color:#cf2e2e !important;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+@media (min-width: 650px) and (max-width: 950px){
+    #productscontainer{
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+@media (max-width: 650px) {
+    #productscontainer{
+      grid-template-columns: 1fr;
+    }
+  }
+#footer{
+    background: #0d1114;
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+
+}
+.topfooter{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    row-gap: 20px;
+    background: #0d1114;
+    width: 100%;
+    height: auto;
+    padding: 50px;
+}
+
+.subbrand{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    height: auto;
+}
+ul{
+    list-style: none;
+}
+li{
+    line-height: 35px;
+}
+a{
+    color: #a6a6a6;
+    font-size: smaller;
+    text-decoration: none;
+}
+
+h7:hover{
+    color: #f3f2fa !important;
+    cursor: pointer;
+}
+
+@media (min-width: 655px) and (max-width:750px){
+    .topfooter{
+        grid-template-columns: 1fr 2fr 1fr;
+
+    }
+
+}
+@media (max-width: 655px) {
+
+    .topfooter{
+        grid-template-columns: 1fr;
+        padding-left: 10px;
+
+    }
+    .categories{
+        display: none;
+    }
+    .brands{
+        display: none;
+    }
+    .Careers{
+        display: none;
+    }
+    .sitemap{
+        display: none;
+    }
+
+}
+.copycontent{
+    width: 80%;
+    height: 100px;
+    padding-left: 10%;
+}
+
+  
